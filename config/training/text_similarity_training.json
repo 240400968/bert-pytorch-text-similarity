@@ -1,0 +1,16 @@
+{
+    "train_data": "../../data/preprocessed/text_similarity/train.pickle",
+    "matched_valid_data": "../../data/preprocessed/text_similarity/matched_valid.pickle",
+    "mismatched_valid_data": "../../data/preprocessed/text_similarity/mismatched_valid.pickle",
+    "test_data1": "../../data/preprocessed/text_similarity/test1.pickle",
+    "bert_path": "../../data/bert_pretrain/",
+    "target_dir": "../../data/checkpoints/text_similarity",
+    "hidden_size": 768,
+    "dropout": 0.5,
+    "num_classes": 2,
+    "epochs": 1,
+    "batch_size": 32,
+    "learning_rate": 5e-5,
+    "patience": 5,
+    "max_gradient_norm": 10.0
+}
